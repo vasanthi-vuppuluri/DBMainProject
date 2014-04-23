@@ -1,0 +1,16 @@
+Readme:
+
+1. Ignore any warnings when compiled with Borland C++
+
+2. The binary file for each table is created as table_name.tbl
+
+3. output text file will be created in the same directory when batch file for input is passed
+
+4. Compilation steps:
+		- bcc32 dbms.cpp
+
+5. Execution steps:
+		- dbms query
+		- dbms script = input_file.txt > output_file.txt
+		
+6. Catalog.txt file will be updated only after 'quit' command is given in command prompt or when end of file is reached in the input_file
